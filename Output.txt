@@ -1,0 +1,109 @@
+By: Gabriela Pedreros
+
+OUTPUT FOR QUERIES
+
+1. 
++--------------------+
+| address            |
++--------------------+
+| 132 Pudding Lane   |
+| 222 Oxford Street  |
+| 345 Park Avenue    |
+| 498 Abbey Road     |
+| 567 Downing Street |
++--------------------+
+5 rows in set (0.00 sec)
+
+2. 
++--------------------+-----------+
+| address            | mlsNumber |
++--------------------+-----------+
+| 132 Pudding Lane   |      4000 |
+| 222 Oxford Street  |      3550 |
+| 345 Park Avenue    |      1890 |
+| 498 Abbey Road     |      2390 |
+| 567 Downing Street |      4567 |
++--------------------+-----------+
+5 rows in set (0.00 sec)
+
+3. 
++----------------+
+| address        |
++----------------+
+| 498 Abbey Road |
++----------------+
+1 row in set (0.00 sec)
+
+4.
++----------------------+--------+
+| address              | price  |
++----------------------+--------+
+| 199 Full House Drive | 200000 |
++----------------------+--------+
+1 row in set (0.01 sec)
+
+5. 
++-------------------+--------+
+| address           | price  |
++-------------------+--------+
+| 567 Piccadilly    | 120000 |
+| 2947 Baker Street | 100000 |
++-------------------+--------+
+2 rows in set (0.00 sec)
+
+6.
++---------+-------------------+-----------+----------------------+-------------+
+| agentId | name              | phone     | name                 | dateStarted |
++---------+-------------------+-----------+----------------------+-------------+
+|     101 | Ryan Reynolds     | 456787654 | Selling Sunset       | 2023-12-03  |
+|     102 | Ryan Gosling      | 234567892 | Selling Sunset       | 2024-01-01  |
+|     501 | Margot Robbie     | 923754679 | Stars Hollow Homes   | 2004-07-14  |
+|     502 | Emma Stone        | 981234567 | Stars Hollow Homes   | 2008-08-27  |
+|     201 | Mila Kunis        | 947863245 | Florida Houses       | 2016-07-08  |
+|     202 | Ashton Kutcher    | 908765436 | Florida Houses       | 2017-11-09  |
+|     301 | Jennifer Lawrence | 690432678 | New York Properties  | 2019-12-26  |
+|     302 | Josh Hutcherson   | 787654326 | New York Properties  | 2020-09-29  |
+|     401 | Chris Pratt       | 345678956 | Corner Stone Estates | 2021-04-30  |
+|     402 | Chris Hemsworth   | 896543267 | Corner Stone Estates | 2003-05-15  |
++---------+-------------------+-----------+----------------------+-------------+
+10 rows in set (0.00 sec)
+
+7. 
++-----------------+-------------------+--------+
+| address         | ownerName         | price  |
++-----------------+-------------------+--------+
+| 345 Park Avenue | Nathalia Palacios | 500000 |
++-----------------+-------------------+--------+
+1 row in set (0.00 sec)
+
+8. 
++-------------------+------------------+
+| Agent_Name        | Buyer_Name       |
++-------------------+------------------+
+| Jennifer Lawrence | Jennifer Aniston |
+| Josh Hutcherson   | Matt LeBlanc     |
+| Margot Robbie     | David Schwimmer  |
+| Mila Kunis        | Matthew Perry    |
+| Ryan Reynolds     | Courtney Cox     |
++-------------------+------------------+
+5 rows in set (0.00 sec)
+
+9. 
++---------+----------------+
+| agentID | NumberOfBuyers |
++---------+----------------+
+|     101 |              1 |
+|     201 |              1 |
+|     302 |              1 |
+|     501 |              1 |
+|     301 |              1 |
++---------+----------------+
+5 rows in set (0.01 sec)
+
+10.
++-----------------+-------------------+--------+----------+-----------+------+
+| address         | ownerName         | price  | bedrooms | bathrooms | size |
++-----------------+-------------------+--------+----------+-----------+------+
+| 345 Park Avenue | Nathalia Palacios | 500000 |        3 |         3 |  192 |
++-----------------+-------------------+--------+----------+-----------+------+
+1 row in set (0.00 sec)
