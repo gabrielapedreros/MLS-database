@@ -9,6 +9,8 @@ The address identies a property. Only one agent can list a certain property.
 A listing is given an MLS number. An agent can only work for one firm.
 Address in Listings table is a foregin key reference to Address in Property table.
 
-#
-#
+# Database.sql
+Creates the tables 
+# Queries.sql
+Contains SQL instructions
 # Output
