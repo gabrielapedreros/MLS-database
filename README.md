@@ -10,9 +10,10 @@ A listing is given an MLS number. An agent can only work for one firm.
 Address in Listings table is a foregin key reference to Address in Property table.
 
 # Database.sql
-Creates the tables 
+Creates the tables of Database Schemas (Property, House, BusinessProperty, Firm, Agent, Listings, Buyer, and Works_With)
 
 # Queries.sql
-Contains SQL instructions
+Contains SQL instructions for the output.
 
 # Output
+Outputs the properties that follow the restrictions from the queries.sql file.
