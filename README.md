@@ -11,6 +11,8 @@ Address in Listings table is a foregin key reference to Address in Property tabl
 
 # Database.sql
 Creates the tables 
+
 # Queries.sql
 Contains SQL instructions
+
 # Output
