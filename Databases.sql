@@ -1,4 +1,5 @@
- CREATE DATABASE project;
+/* Gabriela Pedreros - gp21j */
+CREATE DATABASE project;
 
 CREATE TABLE Property(
  					address VARCHAR(50) NOT NULL,
